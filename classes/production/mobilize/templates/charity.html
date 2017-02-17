@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<form action="/charity" method="get">
+    {{#name}}  <h2>{{name}} </h2>
+    {{category}} <br>
+    {{location}}<br>
+    {{rating}}<br>
+    {{/name}}
+</form>
+<form action="/add-donation"  method="post">
+    <input type="text" placeholder="Enter Donation" name="text"/>
+    <button type="submit">Donate</button> </br>
+</form>
+
+</body>
+</html>
